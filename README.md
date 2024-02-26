@@ -56,4 +56,23 @@ Each sentences is a list of sent
 
 
 
- Test
+## Setup for python3_2024 branch
+```
+git clone -b python3_2024 https://github.com/BillyMazotti/refer_python3_2024.git
+cd refer_python3_2024
+
+# create conda environment
+conda env create -f refer_conda_environment.yml
+conda activate refer
+
+# genearte _mask files
+make
+```
+
+Add the Image and Annotations (~27.5 GB). Within the "/refer_python3_2024/data" directory, your folder structure should look like the below image
+
+![alt text](data_folder_structure.png)
+
+You should now be able to run pyReferDemo.ipynb completely.
+
+At the moment we are unable to completely run pyEvalDemo.ipynb.
