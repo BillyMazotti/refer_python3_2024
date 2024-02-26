@@ -7,6 +7,8 @@
 #
 # Authors: Ramakrishna Vedantam <vrama91@vt.edu> and Tsung-Yi Lin <tl483@cornell.edu>
 
+import sys
+sys.path.append("cider/pyciderevalcap/cider")
 from cider_scorer import CiderScorer
 import pdb
 
