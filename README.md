@@ -77,6 +77,6 @@ You should now be able to run pyReferDemo.ipynb completely.
 
 At the moment we are unable to completely run pyEvalDemo.ipynb.
 
-Current issues face:
+## Current issues:
 - was able to find python3 compatible versions of [meteor.py](https://github.com/salaniz/pycocoevalcap/blob/master/meteor/meteor.py) and [ptbtokenizer.py](https://github.com/salaniz/pycocoevalcap/blob/master/tokenizer/ptbtokenizer.py) to assist in adding .encode() and .decode() functions to solve several of the byte-str related errors
 - not able to pass error in compute_score(); found related error in [this issue](https://github.com/salaniz/pycocoevalcap/issues/15).
