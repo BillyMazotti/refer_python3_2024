@@ -69,7 +69,7 @@ conda activate refer
 make
 ```
 
-## Download and prepare COCO dataset
+### Download and prepare COCO dataset
 Download all 2014 Train, Val, and Test Images from the [COCO website](https://cocodataset.org/#download).
 
 Download the annotation zip files for the RefCOCO dataset mentioned previously in the readme.
