@@ -69,10 +69,13 @@ conda activate refer
 make
 ```
 
-Add the Image and Annotations (~27.5 GB). Within the "/refer_python3_2024/data" directory, your folder structure should look like the below image
+## Download and prepare COCO dataset
+Download all 2014 Train, Val, and Test Images from the [COCO website](https://cocodataset.org/#download).
+
+Download the annotation zip files for the RefCOCO dataset mentioned previously in the readme.
+
+Integrate the Image and Annotations (~27.5 GB) within the "/refer_python3_2024/data" directory; your folder structure should look like the below image
 
 ![alt text](data_folder_structure.png)
 
-You should now be able to run pyReferDemo.ipynb completely.
-
-At the moment we are unable to completely run pyEvalDemo.ipynb.
+You should now be able to run pyReferDemo.ipynb completely. At the moment we are unable to completely run pyEvalDemo.ipynb.
